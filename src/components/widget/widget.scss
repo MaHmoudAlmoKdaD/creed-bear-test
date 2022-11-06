@@ -1,0 +1,49 @@
+.widget {
+  flex: 3.5;
+  margin: 0 25px;
+  border: 1px solid rgb(227, 227, 227);
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  .left {
+    height: 60px;
+    .name {
+      width: 100px;
+      font-size: 12px;
+      font-weight: bold;
+      color: rgb(142, 142, 142);
+    }
+    .number {
+      margin-top: 10px;
+      font-size: 35px;
+      color: rgb(21, 20, 20);
+    }
+  }
+  .right {
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    .iconVert {
+      color: rgb(169, 166, 166);
+      cursor: pointer;
+    }
+
+    .percentage {
+      width: 50px;
+      padding: 0 5px;
+      display: flex;
+      align-items: center;
+      justify-items: space-between;
+      background-color: rgba(0, 255, 0, 0.3);
+      color: rgb(17, 90, 17);
+      border-radius: 20px;
+      .iconArrow {
+        font-size: 10px;
+      }
+    }
+  }
+}

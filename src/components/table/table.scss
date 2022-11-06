@@ -1,0 +1,32 @@
+.table {
+}
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.editDeleteIcons {
+  padding: 0 10px;
+}
+.deleteIcon {
+  color: red;
+  cursor: pointer;
+}
+.editIcon {
+  color: green;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.buttonView{
+  background-color: #ecf3fe;
+  color:  #585dc2;
+  font-weight: bold;
+  border: none;
+  border-radius: 7px;
+  padding: 5px;
+  cursor: pointer;
+}
+.loading{
+  text-align: center;
+  margin-top: 40px;
+}

@@ -1,0 +1,75 @@
+.sidebar {
+  height: 100vh;
+  flex: 2;
+  border-right: 1px solid rgb(227, 227, 227);
+  .logo {
+    display: flex;
+    align-items: center;
+    margin: 12px 12px;
+    cursor: pointer;
+    p {
+      font-weight: bolder;
+      margin-left: 5px;
+    }
+  }
+  .listContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 590px;
+    padding: 15px;
+    .list {
+      .itemList {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        cursor: pointer;
+        &:hover {
+          background-color: #ecf3fe;
+          border-radius: 5px;
+          p {
+            color: #585dc2;
+          }
+          .icon {
+            color: #585dc2;
+          }
+        }
+        p {
+          margin-left: 5px;
+          font-size: 15px;
+          color: rgb(113, 107, 107);
+          font-weight: bold;
+        }
+      }
+      .card {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        img {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+        }
+        .name {
+          .fullName {
+            font-size: 11px;
+            font-size: 15px;
+            color: rgb(113, 107, 107);
+            font-weight: bold;
+          }
+          .username {
+            font-size: 15px;
+            color: rgb(137, 135, 135);
+          }
+        }
+      }
+    }
+  }
+}
+
+.icon {
+  font-size: 20px;
+  color: rgb(113, 107, 107);
+}

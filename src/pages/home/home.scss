@@ -1,0 +1,10 @@
+.home{
+    display: flex;
+    .container{
+        flex: 10;
+    }
+    .widgets{
+        margin-top: 10px;
+        display: flex;
+    }
+}

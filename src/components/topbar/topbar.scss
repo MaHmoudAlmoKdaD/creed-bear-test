@@ -1,0 +1,24 @@
+.topBar {
+    margin: 0 20px;
+    border-bottom: 1px solid rgb(227, 227, 227);
+    .list {
+      display: flex;
+      .listItem:first-child {
+        border-bottom: 2px solid #4b52c9;
+        color: #262ec6;
+      }
+      .listItem {
+        list-style: none;
+        padding: 10px 10px;
+        margin: 0 5px;
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(142, 142, 142);
+        cursor: pointer;
+        &:hover{
+          border-bottom: 2px solid #4b52c9;
+          color: #262ec6;
+        }
+      }
+    }
+  }

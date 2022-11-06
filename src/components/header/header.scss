@@ -1,0 +1,53 @@
+// common properties for button
+// invoke it in button style
+.commonButtonProperties {
+  height: 35px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: 0.5px solid rgb(207, 205, 205);
+  border-radius: 5px;
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.commonIconProperties {
+  font-size: 17px;
+  margin-right: 5px;
+}
+// -----------------
+.header {
+  .top {
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    h1 {
+      color: rgb(68, 66, 66);
+      flex: 9;
+      font-weight: normal;
+    }
+    .buttons {
+      flex: 3;
+      display: flex;
+      button:first-child {
+        @extend .commonButtonProperties;
+        background-color: white;
+        color: #000;
+        .icon {
+          @extend .commonIconProperties;
+          color: #000;
+        }
+      }
+      button:last-child {
+        @extend .commonButtonProperties;
+        background-color: #434ce6;
+        color: #fff;
+        .icon {
+          @extend .commonIconProperties;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
