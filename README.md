@@ -6,6 +6,7 @@
 
 - Material UI.
 - Material UI Icon.
+- DataGrid Table, Material UI.
 - React Router Dom.
 - Sass Preprocessing language For styling.
 - uuid for generate ID.
